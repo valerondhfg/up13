@@ -1,0 +1,1 @@
+SELECT name, type, items_count, price FROM Products WHERE items_count > 5;
