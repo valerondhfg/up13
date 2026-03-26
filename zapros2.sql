@@ -1,0 +1,1 @@
+SELECT * FROM Products WHERE type = 'спальный' AND price < 80000;
