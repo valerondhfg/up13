@@ -1,0 +1,1 @@
+SELECT last_name, first_name, middle_name, address, city FROM Clients WHERE city = 'Москва';
