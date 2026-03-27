@@ -69,14 +69,3 @@ class MainWindow(object):
         self.menu.setTitle(_translate("MainWindow", "Справка"))
         self.action.setText(_translate("MainWindow", "Об авторе"))
         self.action_2.setText(_translate("MainWindow", "Руководство пользователя"))
-
-
-# Блок для тестирования (можно удалить, если не нужно)
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    sys.exit(app.exec_())
